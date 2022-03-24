@@ -1,0 +1,10 @@
+# ignore phpstorm files
+.idea/*
+
+# ignore config file
+config/config.ini
+
+# Composer PHAR
+/composer.phar
+
+/vendor/

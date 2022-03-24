@@ -1,0 +1,18 @@
+{
+  "require": {
+    "symfony/http-foundation": "^5.4.6",
+    "symfony/http-kernel": "^5.4.6",
+    "symfony/routing": "^5.4.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "SchoolBoard\\": "app/",
+      "SchoolBoard\\Controllers\\": "app/Controllers/",
+      "SchoolBoard\\Models\\": "app/Models/"
+    }
+  },
+  "require-dev": {
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
